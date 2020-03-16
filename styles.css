@@ -36,6 +36,9 @@
     border: none;
     width: 100%;
 }
+.search-text:active {
+    border: none;
+}
 .microphone {
     max-height: 23px;
     align-self: center;
@@ -89,8 +92,8 @@ input[type="submit"]:hover {
 .header .text {
     text-decoration: none;
     opacity: 75%;
-    padding: 10px 7px 0 7px;
-    vertical-align: middle;
+    padding: 0 7px;
+    line-height: 28px;
     color: black;
 }
 .header .text:hover {
